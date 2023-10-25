@@ -52,6 +52,7 @@ nav a:focus{
 nav a:hover{
     background-color: #f0c808;
     color: #ff583d;
+    background-image: url(ttps://assets.codepen.io/296057/lil-yellowdots.png);
 }
 
 .active{
