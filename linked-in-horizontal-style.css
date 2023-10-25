@@ -1,0 +1,47 @@
+body{
+    font-family: Varta, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border-bottom: 5px solid #0966c2;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    font-size: 6rem;
+    padding: 0.5rem 1rem 0 1rem;
+    color: #0966c2;
+}
+
+nav a{
+    color: #0966c2;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+}
+
+nav span::before{
+    content: "\a";
+    white-space: pre;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #0966c2;
+}
+
+nav a:hover i{
+    color: #f3ba64;
+}
